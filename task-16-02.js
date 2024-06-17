@@ -10,16 +10,16 @@ class User {
     }
 }
 
-const mango = new User({
-    name: 'Mango',
+const ajax = new User({
+    name: 'Ajax',
     age: 2,
     followers: 20,
 });
 
 console.log(mango.getInfo());
 
-const poly = new User({
-    name: 'Poly',
+const kantor = new User({
+    name: 'Kantor',
     age: 3,
     followers: 17,
 });
