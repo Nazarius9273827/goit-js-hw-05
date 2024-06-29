@@ -1,5 +1,3 @@
-const list = document.getElementById('myList');
-
-const firstItem = list.getElementsByTagName('li')[0];
-
-firstItem.textContent = 'Новий текст для першого елемента';
+const firstItem = document.querySelector('#myList li:first-child');
+        
+firstItem.textContent = 'New Text for First Item';
