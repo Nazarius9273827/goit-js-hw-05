@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <button class="button" data-action="open-modal">Відкрити модалку</button>
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <h2>Модальне вікно</h2>
+            <p>
+                У дизайні інтерфейсу користувача комп'ютерних програм модальне вікно - це графічний елемент керування,
+                підпорядкований головному вікну програми. Він створює режим, який вимикає головне вікно, але залишає
+                його видимим, а модальне вікно є дочірнім вікном перед ним. Користувачі повинні взаємодіяти з модальним
+                вікном, перш ніж вони зможуть повернутися до батьківської програми. Це дозволяє уникнути переривання
+                робочого процесу у головному вікні. Модальні вікна іноді називають важкими вікнами або модальними
+                діалогами, оскільки вони часто відображають діалогове вікно.
+            </p>
+            <button type="button" class="button" data-action="close-modal">Закрити</button>
+        </div>
+    </div>
+
+    <form>
+        <p>Choose a color:</p>
+        <label>
+            <input type="radio" name="color" value="red" checked />
+            Red
+        </label>
+        <label>
+            <input type="radio" name="color" value="white" />
+            White
+        </label>
+        <label>
+            <input type="radio" name="color" value="green" />
+            Green
+        </label>
+    </form>
+
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+    <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+    <input type="text" id="validation-input" data-length="6" placeholder="Введи 6 символів" />
+
+    <input id="font-size-control" type="range" min="10" max="100" value="16" />
+    <br />
+    <span id="text">Абракадабра!</span>
+    <script src="./task-19_01.js"></script>
+    <script src="./task-19_02.js"></script>
+    <script src="./task-19_03.js"></script>
+    <script src="./task-19_04.js"></script>
+</body>
+
+</html>
