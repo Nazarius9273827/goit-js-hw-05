@@ -1,0 +1,43 @@
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .gallery-item {
+        flex: 1 0 30%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #counter {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        padding: 5px;
+    }
+
+    .button_img-minus {
+        width: 40px;
+    }
+
+    .button_img-plus {
+        width: 40px;
+    }
+
+    #value {
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+    }
