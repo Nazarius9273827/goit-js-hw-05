@@ -41,17 +41,55 @@
 
     <ul id="ingredients"></ul>
 
-    <ul id="gallery" class="gallery"></ul>
+    <!-- <ul id="gallery" class="gallery"></ul> -->
 
     <div id="counter">
-        <button type="button" data-action="decrement"><img class="button_img-minus" src="./remove_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="-1"></button>
+        <button type="button" data-action="decrement"><img class="button_img-minus"
+                src="./remove_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="-1"></button>
         <span id="value">0</span>
-        <button type="button" data-action="increment"><img class="button_img-plus" src="./add_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="+1"></button>
+        <button type="button" data-action="increment"><img class="button_img-plus"
+                src="./add_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="+1"></button>
     </div>
+
+    <ul class="gallery1">
+        <li>
+            <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+        </li>
+        <li>
+            <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+        </li>
+        <li>
+            <img class="image" src="https://images.pexels.com/photos/11815778/pexels-photo-11815778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+        </li>
+        <li>
+            <img class="image" src="https://images.pexels.com/photos/6195166/pexels-photo-6195166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+        </li>
+        <li>
+            <img class="image" src="https://images.pexels.com/photos/6957926/pexels-photo-6957926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+        </li>
+        <li>
+            <img class="image" src="https://images.pexels.com/photos/15520825/pexels-photo-15520825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+        </li>
+    </ul>
+
+    <div class="full-image-container" id="fullImageContainer">
+        <img class="full-image" id="fullImage" src="" alt="Зображення">
+    </div>
+
+    <div id="controls">
+        <input type="number" min="0" max="100" step="1" id="amount-input"/>
+        <button type="button" data-action="render">Створити</button>
+        <button type="button" data-action="destroy">Очистити</button>
+      </div>
+      
+      <div id="boxes"></div>
+
     <script src="./task-18_01.js"></script>
     <script src="./task-18_02.js"></script>
     <script src="./task-18_03.js"></script>
     <script src="./task-18_04.js"></script>
+    <script src="./task-20_01.js"></script>
+    <script src="./task-20_02.js"></script>
 </body>
 
 </html>
